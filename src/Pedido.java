@@ -6,23 +6,33 @@ public class Pedido {
     private int id;
     private LocalDate data;
     private LinkedList<Pizza> listaPizzas;
+    private boolean aberto;
 
     static {
         contadorId = 0;
     }
 
-    private void init(){
-        contadorId++;
-        this.id = contadorId;
-        this.data = LocalDate.now();
-    }
-
     public Pedido(){
-        init();
+        contadorId++;
+        id = contadorId;
+        listaPizzas = new LinkedList<>();
+        data = LocalDate.now();
+        aberto = true;
     }
 
-    public boolean addPizza(Pizza pizza){
-        return listaPizzas.add(pizza);
+    private boolean podeAdicionar(){
+        return aberto;
+    }
+
+    public int addPizza(Pizza pizza){
+        if(pizza != null && podeAdicionar()){
+            listaPizzas.add(pizza);
+        }
+        return listaPizzas.size();
+    }
+
+    public void fecharPedido(){
+        aberto = false;
     }
 
     public double valorPedido(){
