@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="50b88c76-2e0e-4728-8b69-97f123d2d07e" name="Changes" comment="fix: corrige metodos e atributos de Pedido">
+      <change beforePath="$PROJECT_DIR$/src/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pedido.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/XulambsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/XulambsApp.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="19" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thevictorcandido&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/thevictorcandido/ProgMod_XulambsFoods26-2.git&quot;,
+    &quot;accountId&quot;: &quot;bb6fbda9-8f9e-425a-a521-e8ccbcde058b&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.492480807729575E-4" />
+      <entry key="MS500" value="0.17170452918769788" />
+      <entry key="S2" value="0.6454494948966244" />
+      <entry key="S5" value="0.9170479585395631" />
+      <entry key="S10" value="1.1960200253461244" />
+      <entry key="S30" value="1.625546255228762" />
+      <entry key="S60" value="1.794426941073363" />
+      <entry key="M2" value="1.8921311495603639" />
+      <entry key="M5" value="1.9555630210358033" />
+      <entry key="M10" value="1.9775605166118155" />
+      <entry key="M15" value="1.9849907733206227" />
+      <entry key="M30" value="1.9924704847681407" />
+      <entry key="H1" value="1.9962498870687233" />
+      <entry key="H2" value="2.0421151307803056" />
+      <entry key="H4" value="4.07736230518392" />
+      <entry key="D1" value="86.81735644862987" />
+      <entry key="W1" value="194.9664687529322" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.000000000363834" />
+      <entry key="S2" value="1.0043674291053355" />
+      <entry key="S5" value="1.113786396925081" />
+      <entry key="S10" value="1.3373223931568745" />
+      <entry key="S30" value="1.6961161735471486" />
+      <entry key="S60" value="1.834335767869956" />
+      <entry key="M2" value="1.9134198201648331" />
+      <entry key="M5" value="1.9644243620344835" />
+      <entry key="M10" value="1.982051099502711" />
+      <entry key="M15" value="1.987997981862789" />
+      <entry key="M30" value="1.9939808760059399" />
+      <entry key="H1" value="1.9969921930104975" />
+      <entry key="H2" value="2.0120295549259235" />
+      <entry key="H4" value="2.673196651485276" />
+      <entry key="D1" value="41.55236975383231" />
+      <entry key="W1" value="100.21788509364276" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.006848866834545676" />
+      <entry key="MS500" value="0.42119929174966786" />
+      <entry key="S2" value="1.261774620740285" />
+      <entry key="S5" value="1.8218847266577338" />
+      <entry key="S10" value="2.400034541149042" />
+      <entry key="S30" value="3.263092320754336" />
+      <entry key="S60" value="3.5967831533483374" />
+      <entry key="M2" value="3.788790082831509" />
+      <entry key="M5" value="3.913083952754486" />
+      <entry key="M10" value="3.9561254842635454" />
+      <entry key="M15" value="3.9706569248542984" />
+      <entry key="M30" value="3.9852815505696344" />
+      <entry key="H1" value="3.9926561933083673" />
+      <entry key="H2" value="4.0538478052606255" />
+      <entry key="H4" value="6.75032155601163" />
+      <entry key="D1" value="128.36892102396314" />
+      <entry key="W1" value="295.184081474787" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3JHQvjtQ1IjiGfKPq1kHGrea80V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.XulambsApp.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "vitin",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "G:/My Drive/university/2nd-semester/Programação Modular/ProgMod_XulambsFoods26-2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="XulambsApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="XulambsApp" />
+      <module name="ProgMod_XulambsFoods26-2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.XulambsApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50b88c76-2e0e-4728-8b69-97f123d2d07e" name="Changes" comment="" />
+      <created>1789315747169</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789315747169</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Organiza a pasta e remove alguns arquivos do vscode" />
+    <MESSAGE value="feat: cria o objeto Pedido" />
+    <MESSAGE value="fix: corrige metodos e atributos de Pedido" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: corrige metodos e atributos de Pedido" />
+  </component>
+</project>
